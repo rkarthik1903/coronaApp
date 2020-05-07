@@ -1,0 +1,32 @@
+.header_Comp{
+   max-height: 20%;
+   background-color: aqua;
+   
+   /* display: flex; */
+   flex-wrap: nowrap;
+
+}
+.h2_comp{
+    text-align: center;
+    /* padding-left: 45%; */
+}
+.imageDiv{
+    max-height: 30%;
+}
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    /* left : 50%; */
+    margin-left: 45%;
+    margin-top: 15%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    text-align: center;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
