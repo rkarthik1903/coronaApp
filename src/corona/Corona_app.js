@@ -89,6 +89,7 @@ class Corona_app extends Component {
         <Button id='1' variant="contained" color="primary" onClick={this.getPaitentDetails}>paitent Data</Button>
         <Button  id ='2' variant="contained" color="secondary" onClick={this.getStateDetails}>state Data </Button>
 
+
         {display?<div><h2>Total Paitents : {paitentData.data.summary.total}</h2><div></div></div>:''}
         
        {display? <div>
